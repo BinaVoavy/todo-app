@@ -1,0 +1,26 @@
+.task {
+  display: flex;
+  align-items: center;
+  height: 2rem;
+  border-bottom: 1px solid rgb(168, 154, 154, 0.6);
+  margin-bottom: 0.7rem;
+  cursor: pointer;
+  position: relative;
+}
+.task i {
+  font-size: 0.6rem;
+  padding: 0.25rem;
+  border-radius: 0.15rem;
+  position: absolute;
+  top: 0.4rem;
+  right: 0.5rem;
+}
+.task i:hover {
+  background-color: #fc7661bd;
+  color: #fff;
+}
+.task input {
+  display: inline-block;
+  margin-right: 1rem;
+  color: #fc7561;
+}

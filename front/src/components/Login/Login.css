@@ -1,0 +1,83 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(250, 230, 207, 0.959);
+  display: grid;
+  place-items: center;
+}
+
+.form_container {
+  width: 24rem;
+  /* border: 1px solid blue; */
+  background-color: #fff;
+  box-shadow: 2px 2px 20px -6px rgba(0, 0, 0, 0.6);
+}
+.form_header {
+  height: 3.5rem;
+  background-color: #fc7561;
+  color: #fff;
+  padding-left: 1rem;
+  line-height: 3.5rem;
+}
+
+.form_body {
+  padding: 1rem;
+}
+.form_group {
+  position: relative;
+  margin-bottom: 0.5rem;
+}
+.form_group input {
+  display: block;
+  padding: 0.5rem;
+  width: 100%;
+  outline: none;
+  border: 1px solid rgb(168, 154, 154);
+  /* margin: 0.3rem 0; */
+}
+.form_group.invalid input {
+  border: 1px solid #ff3617;
+}
+.form_group i {
+  position: absolute;
+  right: 0.5rem;
+  top: 2.15rem;
+  color: #ff3617;
+}
+.form_group .error {
+  color: #ff3617;
+  font-style: italic;
+  font-size: 0.8rem;
+}
+
+.form_body button {
+  border: none;
+  outline: none;
+  width: 100%;
+  color: #fff;
+  background-color: #fc7561;
+  padding: 0.5rem 0;
+  font-weight: bold;
+  font-size: 1rem;
+  margin: 0.7rem 0;
+  cursor: pointer;
+}
+
+.error_message {
+  background-color: #ff3617da;
+  color: #fff;
+  width: 100%;
+  text-align: center;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.singup_text {
+  font-size: 0.9rem;
+  font-style: italic;
+  text-align: center;
+}
+.singup_text a {
+  color: #fc7561;
+  font-style: normal;
+}

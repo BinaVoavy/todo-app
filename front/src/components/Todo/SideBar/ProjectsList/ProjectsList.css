@@ -1,0 +1,8 @@
+.menu_item.projects {
+  border-bottom: 1px solid rgba(199, 199, 199, 0.2);
+  cursor: default;
+}
+.menu_item.projects:hover {
+  background-color: transparent;
+  font-weight: 500;
+}

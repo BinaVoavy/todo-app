@@ -1,0 +1,35 @@
+.add_task_form {
+  margin-top: 1rem;
+}
+.add_task_form input {
+  width: 90%;
+  padding: 0.5rem 0.5rem;
+  outline: none;
+  border: 1px solid rgb(168, 154, 154);
+  margin-top: 0.7rem;
+}
+.add_task_form input:focus {
+  border: 2px solid rgba(0, 0, 0, 0.7);
+}
+.task_button_group {
+  font-size: 1rem;
+  margin-top: 0.7rem;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 3rem;
+}
+.task_button_group button {
+  border: none;
+  font-size: 1rem;
+  outline: none;
+  color: #fff;
+  background-color: #fc7561;
+  padding: 0.3rem 2rem;
+  font-weight: bold;
+  cursor: pointer;
+  margin-right: 0.5rem;
+}
+
+.task_button_group span {
+  cursor: pointer;
+}

@@ -1,0 +1,31 @@
+.menu_item.project_item {
+  padding-left: 1.3rem;
+  padding-right: 2rem;
+  position: relative;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.project_item::after {
+  content: "";
+  width: 0.5rem;
+  height: 0.5rem;
+  background-color: rgb(36, 252, 90);
+  border-radius: 50%;
+  position: absolute;
+  left: 0.3rem;
+  top: 0.75rem;
+}
+
+.menu_item.project_item i {
+  font-size: 0.6rem;
+  padding: 0.25rem;
+  border-radius: 0.15rem;
+  position: absolute;
+  top: 0.4rem;
+  right: 0.5rem;
+}
+.menu_item.project_item i:hover {
+  background-color: #fc7661bd;
+  color: #fff;
+}

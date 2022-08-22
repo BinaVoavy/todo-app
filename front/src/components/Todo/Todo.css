@@ -1,0 +1,13 @@
+.app_container {
+  max-width: 50rem;
+  width: 50rem;
+  height: 100vh;
+  background-color: #fff;
+  box-shadow: 2px 2px 20px -6px rgba(0, 0, 0, 0.6);
+}
+
+.app_body {
+  width: 100%;
+  height: calc(100% - 3rem);
+  display: flex;
+}
